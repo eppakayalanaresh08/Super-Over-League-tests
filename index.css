@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.bgContainer {
+  background-color: #0f172a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headingSuperOver {
+  color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 32px;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .headingSuperOver {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+}
